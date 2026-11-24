@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="367b25c6-8b84-49f3-ba0b-751bb79d6c5e">
+  <producedTypes>
+    <objectType typeId="99b30dde-e1a2-4185-9b07-834ac3295f6a" valueTypeId="a2ea54e3-34be-4e0b-b798-008bac1daa7a"/>
+    <refType typeId="ce42effe-554c-4833-86e9-d8b4435016f7" valueTypeId="6e0ef4d9-3021-48cc-88c1-a1988c2e316b"/>
+    <selectionType typeId="22e3f6db-afd1-4d92-8779-c96482c6fbae" valueTypeId="900e3816-8947-47ae-a4aa-79a92769fbc3"/>
+    <listType typeId="01d13005-f184-46e6-bf51-3fcc11c84ec7" valueTypeId="860cfd8b-19d9-4132-badf-85b821e4166a"/>
+    <managerType typeId="ccb0e4c6-2553-43ba-8445-8dd0b138af88" valueTypeId="119ee1e5-c58b-4f77-8048-6f500dcaa3e1"/>
+  </producedTypes>
+  <name>Студенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Студенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Студенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Студенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="25ba62cc-29e4-48a6-a19e-b7436cb29618">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d9b9bf89-179d-4695-b0a7-1645ce6f8e0d">
+    <name>НаправлениеПодготовки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление подготовки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80afee67-811e-4384-90bf-6c333e24b83e">
+    <name>СреднийБалл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средний балл</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2001db4d-be96-4c05-bb52-1d2c841a816a">
+    <name>Навыки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Навыки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
